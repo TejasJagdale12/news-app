@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+/* Main Page Heading */
+.news-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #111827;
+    letter-spacing: -0.5px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Red underline accent under the heading */
+.news-heading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #ef4444, #f97316);
+    border-radius: 4px;
+    margin: 12px auto 0 auto;
+}
+
+/* Pagination buttons spacing */
+.container.d-flex.justify-content-between {
+    margin: 40px 0 20px 0;
+}
